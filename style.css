@@ -43,12 +43,16 @@ a {
 
 .awesome {
     display:block;
+    column-count: 2;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
     padding-top:50px;
     padding-bottom:50px;
+
 }
+
+
 
 .awesome .title {
     font-size: 48px;
@@ -56,7 +60,28 @@ a {
     color: #F9FAF8
 }
 
+.left{
+   
+    display:flex;
+    height: 300px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-text {
+    display: block;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
 .silly-face {
     max-width: 300px;
     flex-shrink: 0;
+}
+
+.right img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
